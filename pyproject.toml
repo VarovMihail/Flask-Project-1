@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flaskproject1"
+version = "0.1.0"
+description = ""
+authors = ["Варов Михаил <8605495@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.2"
+requests = "^2.28.1"
+pytest = "^7.2.0"
+sqlalchemy = "^1.4.44"
+psycopg2-binary = "^2.9.5"
+pydantic = "^1.10.2"
+flask-bcrypt = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
